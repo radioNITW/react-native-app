@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Campus Radio",
+    "slug": "campus-radio",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-sm.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1b3487"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.higgsboson.campusdiaries",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.higgsboson.campusdiaries",
+      "versionCode": 1
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
+    }
+  }
+}
