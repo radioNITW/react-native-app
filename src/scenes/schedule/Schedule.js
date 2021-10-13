@@ -43,7 +43,7 @@ const Schedule = ({ navigation }) => (
     <View style={styles.root2}>
     <WebView 
       source={{html: '<iframe src="http://campusradio.live/public/radio_nitw/schedule/embed?theme=dark" frameborder="0" allowtransparency="true" style="width: 40%; min-height: 950px; border: 0;"></iframe>'}}
-      style={{marginTop: 0, width: 1000}}
+      style={{marginTop: 0, width: 1040}}
     />
     </View>
     

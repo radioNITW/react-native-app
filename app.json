@@ -4,7 +4,7 @@
     "slug": "campus-radio",
     "privacy": "public",
     "platforms": ["ios", "android", "web"],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo-sm.png",
     "splash": {
@@ -18,12 +18,12 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "com.higgsboson.campusdiaries",
-      "buildNumber": "1.0.0",
+      "buildNumber": "1.1.0",
       "supportsTablet": true
     },
     "android": {
       "package": "com.higgsboson.campusdiaries",
-      "versionCode": 1
+      "versionCode": 2
     },
     "packagerOpts": {
       "config": "metro.config.js",

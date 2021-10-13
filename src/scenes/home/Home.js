@@ -8,20 +8,28 @@ import { WebView } from 'react-native-webview';
 
 const styles = StyleSheet.create({
   root: {
-    flex: 6,
+    flex: 1,
     flexDirection: 'row',
     alignItems: 'flex-start',
     justifyContent: 'center',
     backgroundColor: '#1b3487'
   },
   root2: {
-    flex: 4,
+    flex: 2,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 10,
     marginRight: 10,
 
+  },
+  root3: {
+    flex: 5,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 10,
+    marginRight: 10,
   },
   title: {
     fontSize: 24,
@@ -35,13 +43,6 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     color: 'white',
   },
-  webview:{
-    flex: 5,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    
-  }
 })
 
 const Home = ({ navigation }) => (
@@ -60,12 +61,16 @@ const Home = ({ navigation }) => (
     />*/}
     </View>
     <View style={styles.root2}>
-    <WebView style={styles.webview}
+    <WebView 
       source={{html: '<iframe src="http://campusradio.live/public/radio_nitw/embed?theme=light" frameborder="0" allowtransparency="true" style="width: 30%; min-height: 150px; border: 0;"></iframe>'}}
       style={{marginTop: 10, width: 1200}}
     />
     </View>
-    <View style={styles.root}>
+    <View style={styles.root3}>
+    <WebView 
+      source={{html: '<iframe src="http://13.76.159.92:8282/#/v1/" frameborder="0" allowtransparency="true" style="width: 40%; height: 450px; border: 0; align: center; -webkit-transform: scale(0.78); transform: scale(0.78); -webkit-transform-origin: 0 0; transform-origin: 0 0;"></iframe>'}}
+      style={{marginTop: 10, width: 1200}}
+    />
           </View>
      
     </>
